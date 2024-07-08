@@ -33,6 +33,48 @@ This project is a sophisticated personal portfolio website developed using HTML,
 - **CSS**: For styling and layout.
 - **JavaScript**: For interactivity and dynamic content.
 
+  ### Screenshots
+
+  ### About Me
+![About Me](/screenshots/aboutme.png)
+*Description of the About Me page.*
+
+### Chart
+![Chart](/screenshots/chart.png)
+*Description of the chart page.*
+
+### Coding
+![Coding](/screenshots/coding.png)
+*Description of the coding page.*
+
+### Contact Me
+![Contact Me](/screenshots/contactme.png)
+*Description of the contact me page.*
+
+### Dashboard
+![Dashboard](/screenshots/dashboard.png)
+*Description of the dashboard page.*
+
+### Experience
+![Experience](/screenshots/experience.png)
+*Description of the experience page.*
+
+### Feedback
+![Feedback](/screenshots/feedback.png)
+*Description of the feedback page.*
+
+### Footer
+![Footer](/screenshots/footer.png)
+*Description of the footer section.*
+
+### Projects
+![Projects](/screenshots/projects.png)
+*Description of the projects page.*
+
+### Skills
+![Skills](/screenshots/skills.png)
+*Description of the skills page.*
+
 ## Installation
 
 To run this project locally, follow these steps:
