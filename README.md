@@ -54,7 +54,7 @@ To run this project locally, follow these steps:
       Personal Portfolio Website Repository
 
 ## Live Demo
-     Check out the live demo of the portfolio website [here](https://kaditya125.github.io/html-css-js-Portfolio/).
+     Check out the live demo of the portfolio website here https://my-portfolio-beta-two-19.vercel.app/.
 
 ## Contributing
    Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
