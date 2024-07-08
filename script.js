@@ -231,3 +231,33 @@ function handleButtonClick(button) {
     button.classList.remove('btn-celebrate');
   }, 500);
 }
+// JavaScript for sliding cards in the slider
+let currentIndex = 0; // Track the current index of the displayed cards
+
+function slideLeft() {
+  const projectSlider = document.getElementById('projectSlider');
+  const cardWidth = projectSlider.querySelector('.details-container').offsetWidth;
+  const maxIndex = projectSlider.children.length - 1;
+
+  if (currentIndex > 0) {
+    currentIndex--;
+    projectSlider.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+  } else {
+    currentIndex = maxIndex;
+    projectSlider.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+  }
+}
+
+function slideRight() {
+  const projectSlider = document.getElementById('projectSlider');
+  const cardWidth = projectSlider.querySelector('.details-container').offsetWidth;
+  const maxIndex = projectSlider.children.length - 1;
+
+  if (currentIndex < maxIndex) {
+    currentIndex++;
+    projectSlider.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+  } else {
+    currentIndex = 0;
+    projectSlider.style.transform = `translateX(0)`;
+  }
+}

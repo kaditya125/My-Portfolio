@@ -336,6 +336,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .article-container {
@@ -815,3 +816,9 @@ button:hover {
   }
 }
 
+
+.carousel .card{
+  list-style: none;
+  background: #fff;
+  border-radius: 8px;
+}
