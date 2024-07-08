@@ -53,7 +53,7 @@ To run this project locally, follow these steps:
 ## Project Link
       Personal Portfolio Website Repository
 
-## Live Demo
+ **Live Demo**
      Check out the live demo of the portfolio website here https://my-portfolio-beta-two-19.vercel.app/.
 
 ## Contributing
