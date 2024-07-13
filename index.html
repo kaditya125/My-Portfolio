@@ -547,7 +547,7 @@
     Feedback
   </h1>
   <div class="feedback-form-container">
-    <form id="feedbackForm" action="http://localhost:9000/submit-feedback" method="post">
+    <form id="feedbackForm">
       <label for="name">Your Name:</label>
       <input type="text" id="name" name="name" required>
 
@@ -559,6 +559,8 @@
 
       <button type="submit" class="btn btn-color-1">Submit Feedback</button>
     </form>
+    <p class="success-message" id="successMessage">Thank you! Your feedback has been submitted successfully.</p>
+    <p class="error-message" id="errorMessage">An error occurred while submitting your feedback. Please try again.</p>
   </div>
 </section>
 

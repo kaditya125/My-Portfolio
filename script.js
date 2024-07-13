@@ -261,3 +261,32 @@ function slideRight() {
     projectSlider.style.transform = `translateX(0)`;
   }
 }
+
+
+
+document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  fetch('http://localhost:9000/submit-feedback', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ name, email, message }),
+  })
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('successMessage').style.display = 'block';
+    document.getElementById('errorMessage').style.display = 'none';
+    document.getElementById('feedbackForm').reset();
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    document.getElementById('errorMessage').style.display = 'block';
+    document.getElementById('successMessage').style.display = 'none';
+  });
+});
