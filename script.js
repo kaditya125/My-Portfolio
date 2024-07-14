@@ -271,7 +271,7 @@ document.getElementById('feedbackForm').addEventListener('submit', function(even
   const email = document.getElementById('email').value;
   const message = document.getElementById('message').value;
 
-  fetch('http://localhost:9000/submit-feedback', {
+  fetch('https://portfolio-server-2-th70.onrender.com/submit-feedback', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
