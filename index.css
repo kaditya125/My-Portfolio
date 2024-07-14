@@ -833,3 +833,22 @@ button:hover {
   color: red;
   margin-top: 10px;
 }
+
+/* General styling for the section */
+
+
+
+
+.feedback-form-container input[type="text"],
+.feedback-form-container input[type="email"],
+.feedback-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px; /* Match this with your website's font size */
+  font-family: "Poppins", sans-serif; /* Match this with your website's font family */
+  color: #333; /* Match this with your website's text color */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
